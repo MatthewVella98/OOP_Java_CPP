@@ -1,0 +1,4 @@
+Total price: 21.0$
+
+Restaurant with highest revenue: Cikku
+Highest total price: 13.0$

@@ -1,0 +1,7 @@
+Insert mammal cat 60 4
+Insert reptile viper 200 venomous
+Insert reptile chameleon 12 non-venomous
+Insert bird eagle 80 can-fly
+Insert bird ostrich 150 cannot-fly
+Find viper
+Remove eagle

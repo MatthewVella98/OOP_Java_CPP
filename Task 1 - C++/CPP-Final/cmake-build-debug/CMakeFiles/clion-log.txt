@@ -1,0 +1,32 @@
+/home/matt/Documents/Clion/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/cc -DCMAKE_CXX_COMPILER=/usr/bin/c++ -G "CodeBlocks - Unix Makefiles" /home/matt/Desktop/CPP-Final
+-- The C compiler identification is GNU 7.3.0
+-- The CXX compiler identification is GNU 7.3.0
+-- Check for working C compiler: /usr/bin/cc
+CMake Error: Generator: execution of make failed. Make command was: "/usr/bin/make" "cmTC_789ff/fast"
+-- Check for working C compiler: /usr/bin/cc -- broken
+CMake Error at /home/matt/Documents/Clion/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeTestCCompiler.cmake:52 (message):
+  The C compiler
+
+    "/usr/bin/cc"
+
+  is not able to compile a simple test program.
+
+  It fails with the following output:
+
+    Change Dir: /home/matt/Desktop/CPP-Final/cmake-build-debug/CMakeFiles/CMakeTmp
+    
+    Run Build Command:"/usr/bin/make" "cmTC_789ff/fast"
+    Permission denied
+    Generator: execution of make failed. Make command was: "/usr/bin/make" "cmTC_789ff/fast"
+    
+
+  
+
+  CMake will not be able to correctly generate this project.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/matt/Desktop/CPP-Final/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/home/matt/Desktop/CPP-Final/cmake-build-debug/CMakeFiles/CMakeError.log".
